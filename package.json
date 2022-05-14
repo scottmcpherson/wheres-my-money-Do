@@ -1,0 +1,23 @@
+{
+  "name": "wheres-my-money-Do",
+  "version": "1.0.0",
+  "description": "Reads the mirror lock contract on an interval and sends notifications",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "npm": ">=6.14.4",
+    "node": ">=14.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "lodash": "^4.17.21",
+    "node-cron": "^3.0.0",
+    "node-notifier": "^10.0.1"
+  }
+}
