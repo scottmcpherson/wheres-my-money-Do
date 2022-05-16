@@ -21,7 +21,7 @@ cron.schedule('*/2 * * * * *', async () => {
     console.log(`${notifyMessage} `, availableAmountInUST);
 
     if (availableAmountInUST > desiredAmountInUST) {
-      notifier.notify(`${notifyMessage} ${amount} UST`);
+      notifier.notify(`${notifyMessage} ${availableAmountInUST} UST`);
     }
   } catch (err) {
     console.log('Error fetching contract amount: ', err);
